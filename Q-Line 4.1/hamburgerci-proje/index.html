@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-Line Burger | Gerçek Burger Deneyimi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Navbar-->
+    <header class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Q-Line Burger Logo">
+            <span class="logo-text">Q-LINE BURGER</span>
+        </div>
+
+        <nav class="nav-links">
+            <a href="index.html" class="active">Anasayfa</a>
+            <a href="menu.html">Menü</a>
+            <a href="hakkımızda.html">Hakkımızda</a>
+            <a href="iletisim.html">İletişim</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+    <div class="hero-text">
+        <div class="duyuru-bar">
+            <p>🔔Web sitemiz "Mobil Öncelikli" yaklaşımıyla tamamen yenilendi!</p>
+        </div>
+
+        <h1>Gerçek Burger. Gerçek Lezzet.</h1>
+        
+        <p class="hero-subtext">
+            Q-Line’da her ısırıkta ateş, kalite ve sokak ruhu var.
+        </p>
+    </div>
+</section>
+    
+    <section class="services" id="menu">
+        <h2>Öne Çıkan Lezzetler</h2>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="big-burger.png" alt="Big Burger resmi">
+                <h3>Big Burger</h3>
+                <p>Izgara köfte, cheddar peyniri, karamelize soğan ve özel sos.</p>
+            </div>
+
+            <div class="service-card">
+                <img src="cheese-burger.png" alt="Cheese Burger resmi">
+                <h3>Cheese Burger</h3>
+                <p>Izgara köfte, bol cheddar peyniri, trüflü mayonez.</p>
+            </div>
+
+            <div class="service-card">
+                <img src="Chicken-burger.png" alt="Chicken Burger resmi">
+                <h3>Chicken Burger</h3>
+                <p>Çıtır tavuk göğsü, BBQ sos ve marul.</p>
+            </div>
+            <div class="service-card">
+                <img src="Double-Burger.png" alt="Double Burger resmi">
+                <h3>Double Burger</h3>
+                <p>2 adet ızgara köfte,cheddar peyniri, turşu ve özel sos</p>
+            </div>
+        </div>
+    </section>
+    <section class="calculator-section">
+    <div class="calculator-container">
+        <h2>🍔 Toplu Sipariş Hesaplayıcı</h2>
+        <p>Hızlıca tahmini fiyat alın.</p>
+        
+        <div class="calc-grid">
+            <div class="input-group">
+                <label for="burger-count">Kişi Sayısı:</label>
+                <input type="number" id="burger-count" value="10" min="1">
+            </div>
+
+            <div class="input-group">
+                <label for="menu-type">Menü Seçimi:</label>
+                <select id="menu-type">
+                    <option value="200">Ekonomik (200 TL)</option>
+                    <option value="300" selected>Klasik (300 TL)</option>
+                    <option value="450">Gurme (450 TL)</option>
+                </select>
+            </div>
+
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="extra-sauce"> Sos Standı (+20 TL/Kişi)</label><br>
+                <label><input type="checkbox" id="extra-drink"> İçecek Barı (+50 TL/Kişi)</label>
+            </div>
+        </div>
+
+        <div class="result-area">
+            <h3>Tahmini Tutar: <span id="total-price">0</span> TL</h3>
+        </div>
+        
+        <button id="calc-trigger-btn" class="pricing-btn" style="border: none; width: 100%; cursor: pointer; display: block; margin-top: 15px;">
+            Hesapla
+        </button>
+    </div>
+</section>
+
+<footer class="footer">
+    <a href="task2.html" class="pricing-btn">Paket Fiyatlarını Gör</a>
+    <p>© 2026 Q-Line Burger</p>
+</footer>
+
+<script src="hesaplayici.js"></script>
+
+    
+
+</body>
+</html>
+

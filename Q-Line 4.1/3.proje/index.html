@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <title>Q-Line Yazılım Şirketi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+  <div class="nav-left">
+    <img class="logo" src="logo.png" alt="Q-Line Logo">
+
+    <span class="company-name">Q-Line Yazılım Şirketi</span>
+  </div>
+
+  <nav class="nav-right">
+    <span class="nav-item">Hakkımızda</span>
+    <span class="nav-item">Hizmetler</span>
+    <span class="nav-item">Çalışmalarımız</span>
+    <span class="nav-item">İletişim</span>
+  </nav>
+</header>
+
+
+  <main class="container">
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Kurumsal yazılım çözümleriyle işinizi büyütün.</h1>
+        <p>
+          Q-Line; web, otomasyon ve yönetim paneli projelerinde hızlı geliştirme,
+          güvenlik ve performansı birlikte sunar.
+        </p>
+
+        <div class="hero-actions">
+  
+  <span class="btn btn-primary btn-disabled">
+    Randevu oluşturmak için tıklayın
+  </span>
+</div>
+
+      </div>
+
+      <div class="hero-card">
+        <p class="hero-badge">Q-Line</p>
+        <h3>Modern • Güvenli • Hızlı</h3>
+        <p class="hero-mini">
+          Kurumsal projelerde temiz arayüz, doğru mimari ve sürdürülebilir kod.
+        </p>
+      </div>
+    </section>
+    <section class="quote-calculator">
+  <h2>Projenizi Birlikte Planlayalım</h2>
+  <p class="section-sub">İhtiyaçlarınızı seçin, tahmini proje bütçenizi anında öğrenin.</p>
+  
+  <div class="calc-box">
+    <div class="calc-row">
+      <div class="calc-group">
+        <label>Proje Tipi</label>
+        <select id="project-type">
+          <option value="15000">Kurumsal Web Sitesi</option>
+          <option value="25000">E-Ticaret Platformu</option>
+          <option value="40000">Özel Otomasyon / ERP</option>
+        </select>
+      </div>
+      
+      <div class="calc-group">
+        <label>Tahmini Sayfa Sayısı</label>
+        <input type="number" id="page-count" value="1" min="1">
+      </div>
+    </div>
+
+    <div class="calc-options">
+      <label><input type="checkbox" id="opt-seo" value="5000"> SEO Optimizasyonu (+5.000 TL)</label>
+      <label><input type="checkbox" id="opt-admin" value="8000"> Yönetim Paneli (+8.000 TL)</label>
+    </div>
+
+    <div class="calc-result">
+      <span>Tahmini Yatırım Tutarı:</span>
+      <strong id="total-quote">0 TL</strong>
+    </div>
+    
+    <button id="calc-btn" class="btn btn-square" style="width: 100%; margin-top: 15px;">Hesapla</button>
+  </div>
+</section>
+
+    
+    <section class="works">
+      <h2>Çalışmalarımız</h2>
+      <p class="section-sub">
+       
+      </p>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-img">
+            <img src="foto1.png" alt="X şirketi foto">
+          </div>
+          <div class="project-body">
+            <h3>X Markası</h3>
+            <p>X markası için kurumsal web sitesi + yönetim paneli geliştirildi.</p>
+            <span class="tag">Web + Panel</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img">
+            <img src="foto2.png" alt="Y şirketi foto">
+          </div>
+          <div class="project-body">
+            <h3>Y Holding</h3>
+            <p>Mobil uyumlu tanıtım sitesi ve hızlı içerik yönetimi altyapısı kuruldu.</p>
+            <span class="tag">Kurumsal Site</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img">
+            <img src="foto3.png" alt="E E-Ticaret foto">
+          </div>
+          <div class="project-body">
+            <h3>Z E-Ticaret</h3>
+            <p>Ürün, sipariş ve stok takibi olan modern e-ticaret altyapısı yapıldı.</p>
+            <span class="tag">E-Ticaret</span>
+          </div>
+        </article>
+
+      </div>
+
+      
+      <div class="cta-area">
+        <a class="btn btn-square" href="team.html">Ekip üyelerimizi tanıyın</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Q-Line Yazılım Şirketi</p>
+  </footer>
+  <script src="qline_logic.js"></script>
+
+</body>
+</html>
+
